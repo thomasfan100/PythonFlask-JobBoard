@@ -5,4 +5,4 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/jobs')
 def jobs():
-    render_template('index.html')
+    return render_template('index.html')
